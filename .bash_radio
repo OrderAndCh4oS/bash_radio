@@ -1,0 +1,4 @@
+alias kexp='nohup mplayer http://live-aacplus-64.kexp.org/kexp64.aac > /dev/null 1>&2     &'
+alias defcon='nohup mplayer http://ice2.somafm.com/defcon-64-aac > /dev/null 1>&2 &'
+alias radio3='nohup mplayer http://bbcmedia.ic.llnwd.net/stream/bbcmedia_radio3_mf_p >     /dev/null 1>&2 &'
+alias radio-stop='killall -9 mplayer'  
